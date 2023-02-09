@@ -1,5 +1,5 @@
 import serial, numpy, pickle # importing necessary libraries -- serial for comms, numpy for array, and pickle for serializing data
-ser = serial.Serial('COM8', 5368709120) # opening port COM8 at desired baud rate
+ser = serial.Serial('COM8', 5000000) # opening port COM8 at desired baud rate
 print(ser.name) # printing name of serial port in console to confirm opening was a success
 
 arr = numpy.array([1, 2, 3]) # initializing the numpy array
