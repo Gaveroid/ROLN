@@ -17,11 +17,3 @@ errorRate = numErrors/numTries # calculates error rate
 print("\n")
 print("There were " + str(numErrors) + " errors out of " + str(numTries) + " tries.\n") # prints error count to user
 print("Error rate: " + str(errorRate * 100) + "%") # prints error rate to user
-
-
-
-
-
-
-    
-
