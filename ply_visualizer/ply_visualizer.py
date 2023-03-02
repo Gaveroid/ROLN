@@ -12,4 +12,4 @@ rgb = np.c_[youngCloud['red'], youngCloud['green'], youngCloud['blue']]
 
 v = pptk.viewer(xyz)
 v.attributes(rgb / 255)
-v.set(lookat=(1,1,1)) # this functionality is bugged -- as soon as you touch the window it resets the viewpoint to 0,0,0
+v.set(lookat=(0, 0, 10)) # this functionality is bugged -- as soon as you touch the window it resets the viewpoint to 0,0,0
